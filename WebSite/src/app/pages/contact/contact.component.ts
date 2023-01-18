@@ -7,11 +7,8 @@ import { Contact } from './contact.model';
 })
 export class ContactComponent {
   contacts = [
-    new Contact('/dgimeno', 'https://www.linkedin.com/in/dgimeno/', 'linkedin', 'linkedin'),
-    new Contact('davidgimenomane@gmail.com', 'mailto:davidgimenomane@gmail.com', 'email', 'envelope'),
-    new Contact('/daliife', 'https://github.com/daliife', 'github', 'github'),
-    new Contact('@davidgimenomane', 'https://twitter.com/davidgimenomane', 'twitter', 'twitter'),
-    new Contact('@dalife', 'https://dalife.itch.io/', 'itch.io', 'gamepad'),
-    new Contact('/dalife', 'https://sketchfab.com/dalife', 'sketchfab', 'paint-brush')
+    new Contact('/Remy Macherel', 'https://www.linkedin.com/in/r%C3%A9my-macherel-32a438174/', 'linkedin', 'linkedin'),
+    new Contact('remymacherel98@gmail.com', 'mailto:remymacherel98@gmail.com', 'email', 'envelope'),
+    new Contact('/MacherelR', 'https://github.com/MacherelR', 'github', 'github'),
   ];
 }

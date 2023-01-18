@@ -1,6 +1,6 @@
 <div class="container">
   <div class="row">
-    <h1 class="light-blue-text text-darken-3 animate__animated animate__bounceInLeft">
+    <h1 class="brown-text text-darken-3 animate__animated animate__bounceInLeft">
       <b>Projects</b>
     </h1>
   </div>
@@ -12,10 +12,10 @@
       href="{{ project.html_url }}"
       target="_blank"
     >
-      <div class="card-content light-blue-text text-lighten-5 light-blue darken-3">
+      <div class="card-content brown-text text-lighten-5 brown darken-3">
         <span class="card-title">
           <div class="card-title-content" [ngStyle]="{ 'margin-top': !!!project.language ? '0rem' : '' }">
-            <span *ngIf="project.language" class="badge light-blue lighten-5 light-blue-text text-darken-3">
+            <span *ngIf="project.language" class="badge brown lighten-5 brown-text text-darken-3">
               <i class="material-icons tiny">navigate_next</i>{{ project.language }}
             </span>
             <h5 class="project-title text-ellipsis">{{ project.name }}</h5>
