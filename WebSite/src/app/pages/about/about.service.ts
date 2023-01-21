@@ -11,9 +11,9 @@ export class AboutService {
 
   private education: InfoField[] = [
     new InfoField(
-      'Masters in Computer Sciences',
+      'Master\'s degree in Computer Sciences',
       'HES-SO Master',
-      'Spet. 2021 - Now',
+      'Sept. 2021 - Now',
       'https://www.hes-so.ch/domaines/ia/mse/cs'
     ),
     new InfoField(

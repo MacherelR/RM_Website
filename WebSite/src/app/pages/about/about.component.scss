@@ -1,6 +1,13 @@
 .left-align-text {
   text-align: left;
 }
+
+.centerVertical{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 .collapsible {
   background-color: var(--color-transparent);
   border: 0px solid var(--color-primary) !important;
